@@ -1,0 +1,6 @@
+framework module WZPayment {
+  umbrella header "WZPayment-umbrella.h"
+
+  export *
+  module * { export * }
+}

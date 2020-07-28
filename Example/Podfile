@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WZPayment_Example' do
+  pod 'WZPayment', :path => '../'
+
+  target 'WZPayment_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
