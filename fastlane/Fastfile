@@ -1,0 +1,88 @@
+require 'pathname'
+require 'fileutils'
+
+default_platform(:ios)
+
+platform :ios do
+
+  # 查找 podspec 文件路径
+  def find_podspec_path
+    # 读取所有 podspec 文件
+    files = Dir.glob(["../*.podspec"])
+
+    if files.empty?
+      raise "Couldn't found podspec file."
+    end
+
+    return File.basename(files[0])
+  end
+
+  desc "release new version"
+  lane :release do |options|
+    target_version = options[:version]
+    raise "The version is missed." if target_version.nil?
+
+    # carthage 打包
+    #carthage(
+     # command: "build",
+     # platform: "iOS", 
+    #  use_binaries: true,
+     # no_skip_current: true)
+
+    # 获取源码 podspec 文件路径
+    podspec_path = find_podspec_path()
+
+    repo_source = "https://github.com/CocoaPods/Specs.git"
+
+    # 验证 podspec
+    pod_lib_lint(
+      podspec: podspec_path,
+      allow_warnings: true,
+      skip_import_validation: true,
+      sources: [repo_source, "https://github.com/CocoaPods/Specs.git"])
+
+    # 设置 podspec 版本
+    version_bump_podspec(
+    	path: podspec_path,
+    	version_number: target_version)
+
+    # 获取 podspec 名称
+    podspec_name = podspec_path.chomp(".podspec")
+
+    # 所有需要提交的文件路径
+    paths = [podspec_path]
+    
+    # 添加 podspec 和 framework
+    git_add(path: paths)
+
+    message = options[:message]
+
+    if message.nil?
+      message = "#{podspec_name} 发布 #{target_version} 版本"
+    end
+
+    # 提交 podspec 和 framework
+    git_commit(path: paths, message: message)
+
+    # 推送到远程
+    push_to_git_remote
+
+    # 获取版本号
+    target_version = version_get_podspec(path: podspec_path)
+
+    # 添加标签
+    if !git_tag_exists(tag: target_version)
+      add_git_tag tag: target_version
+    end
+
+    # 推送标签
+    push_git_tags
+
+    # 发布到 pod
+    pod_push(
+      path: podspec_path,
+      skip_import_validation: true,
+      repo: repo_source,
+      allow_warnings: true)
+  end
+end
