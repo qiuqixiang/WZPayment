@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WZPayment'
   s.version          = '0.1.2'
-  s.summary          = '内购组件'
+  s.summary          = '内购组件：支持自动补单，漏单可继续购买'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.swift_version         = '5.0'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WZPayment/Classes/**/*.swift'
+  s.source_files = 'WZPayment/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'WZPayment' => ['WZPayment/Assets/*.png']
