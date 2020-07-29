@@ -7,37 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEF3F18C7A423EF39B6B908BBAA91E7 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB234B3BBC55D514EC223B1F9CA924B5 /* Keychain.swift */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DD8D6E25A8F97F2BD415A6A97A693D /* UIApplication+StrictKeyWindow.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B47F3111AE5A113203BF83B621AC7F5 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
-		34955179CBC57367D08ACFDD1EAD2EF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19E4288253C87CB5BB8B950FDC29402E /* WZPayment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05BF45124F828A78BD8D1CD4BE976C /* WZPayment-dummy.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 082B486F96700E32DD7A7D614FD02DE5 /* UIImage+Compare.m */; };
+		31913B06338D9AE5D56AAAF58AD4C8D6 /* WZPayment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 358D15F54727EB94241A3579FBC1D042 /* WZPayment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3685D69742100EDEB9044969A8F936E3 /* WZPaymentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADEA88EB74314A7D8D0AB86443FC3A9 /* WZPaymentStore.swift */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FB1B3A3FC5CE94C06CB5C722946EB91 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F1F8B577F751595917B0E2E461C790 /* KeychainAccess-dummy.m */; };
 		4FBDAA282F60AC73FA3466EC1E1A7290 /* Pods-WZPayment_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88F6E9BA60BB8497F1626621F907785E /* Pods-WZPayment_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55BDBE5E58A0400987C584103643D8C8 /* Pods-WZPayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5D2B2701374F8333A9996AC0A8CAE /* Pods-WZPayment_Example-dummy.m */; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		7E2872B805148F1BF1BE868518859845 /* Pods-WZPayment_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB5D2B2701374F8333A9996AC0A8CAE /* Pods-WZPayment_Example-dummy.m */; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 118F7E9A4CC79F1B41B3AB93AEF3943B /* FBSnapshotTestCase-dummy.m */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F766550405E619011F50DD9ACB94A8A6 /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0EF90C212117141247C825D1870C5 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C0CCBC4711CB873CE5D665D1F7ACC77 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		995DC40F4FFF0671CD744C86B4E23147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		998CE99CA9FBBB801639E72648933743 /* Pods-WZPayment_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF18B684FF3332F56531F788296EF7BD /* Pods-WZPayment_Tests-dummy.m */; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03FEDDC94C508D28730D20674E8D485 /* SwiftSupport.swift */; };
+		9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		A173232AE48B79F823B889EA44772579 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		A44F9ECC9F9635FBA7760BEEE74A43D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
-		ACB5351A7B65AFB82ABE17184EDAB0FD /* WZPayment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 358D15F54727EB94241A3579FBC1D042 /* WZPayment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 6159A32BAC674D8ABD587F7B75FCD2E5 /* UIImage+Snapshot.m */; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		B4A8F237A66D2ABB977BD05A3AA90B59 /* WZPayment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD05BF45124F828A78BD8D1CD4BE976C /* WZPayment-dummy.m */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D435408F33873D2CC50E490716DF02EC /* Pods-WZPayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0901C91B19020F6BCA68229B47CD81 /* Pods-WZPayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = CC6BD31B0EEC3C5A8E87166A02B4AC74 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECAE37AB7636A61299B53CD4BEB601F /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B7D3147467F2CB35ADD4BE7DFE2DA3 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DA840D4EC9E23622F335C1F44FFAE912 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F95D60BB7D99DBC21ED65FD70B8EA4EA /* WZPaymentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADEA88EB74314A7D8D0AB86443FC3A9 /* WZPaymentStore.swift */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F6732C3359AF97071615C3FF1E950B /* FBSnapshotTestCasePlatform.m */; };
+		EA7E51EB0AFDC490E0BDFA92D3A20978 /* Pods-WZPayment_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E0901C91B19020F6BCA68229B47CD81 /* Pods-WZPayment_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF45C913FDC743E916BA1B1648FCEB17 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FAAB8D5E19044E309A7D30599E1F99 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD531FDECEDB9589C7DCD56236C7E05 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +52,19 @@
 			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		9D883589EFA55DB8FB7B62E2C63C6BEA /* PBXContainerItemProxy */ = {
+		48418CA12795542E381AD729849C470A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B1541EFC15EB66C880620FB6F103F070;
 			remoteInfo = WZPayment;
+		};
+		8E5EB2B581BF08CAD7E468E6312D75A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
 		};
 		D9244DF6BD4703421536F4B161BD8A40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -62,77 +73,101 @@
 			remoteGlobalIDString = BFFAC2FFDA74005E6FFB5663FB5E788C;
 			remoteInfo = "Pods-WZPayment_Example";
 		};
+		F6863D53DFE1B1D16B19D0C6D43C47A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063976C36920EEBCE6167D8FA5DFDEA2 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		07A71DA2353DFCA3441223471C43595D /* Pods-WZPayment_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZPayment_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		082B486F96700E32DD7A7D614FD02DE5 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		088418391E5742F78A752DD9389223E3 /* Pods-WZPayment_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZPayment_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0FD531FDECEDB9589C7DCD56236C7E05 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		118F7E9A4CC79F1B41B3AB93AEF3943B /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		16D05F1E4475F73EA30983C3B768BF89 /* WZPayment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WZPayment-Info.plist"; sourceTree = "<group>"; };
-		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		27798F0BD495DF23985DF66CF46F085D /* Pods-WZPayment_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WZPayment_Example-frameworks.sh"; sourceTree = "<group>"; };
-		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		27FAAB8D5E19044E309A7D30599E1F99 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		281EE5C032D2DDC7B9DA3DB4A16EA6FE /* Pods_WZPayment_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZPayment_Example.framework; path = "Pods-WZPayment_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		2ADEA88EB74314A7D8D0AB86443FC3A9 /* WZPaymentStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WZPaymentStore.swift; path = WZPayment/Classes/WZPaymentStore.swift; sourceTree = "<group>"; };
+		33F1F8B577F751595917B0E2E461C790 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
 		358D15F54727EB94241A3579FBC1D042 /* WZPayment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZPayment-umbrella.h"; sourceTree = "<group>"; };
+		39567C3398B2542D8C70575B15DBA7E9 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		3BB5D2B2701374F8333A9996AC0A8CAE /* Pods-WZPayment_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZPayment_Example-dummy.m"; sourceTree = "<group>"; };
 		3C13A0EFBAB390485339C4390B4275FF /* Pods-WZPayment_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZPayment_Example-Info.plist"; sourceTree = "<group>"; };
-		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3FB1B3A3FC5CE94C06CB5C722946EB91 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		42911A93F1C3433F627B450572B9F96C /* Pods-WZPayment_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZPayment_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		44F6732C3359AF97071615C3FF1E950B /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		4E0901C91B19020F6BCA68229B47CD81 /* Pods-WZPayment_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZPayment_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D8E7DFFBDA40AB1D9F797377973A24C /* Pods-WZPayment_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZPayment_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DE505D5CE6C23A98267307662277AF1 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		5ECAE37AB7636A61299B53CD4BEB601F /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		6159A32BAC674D8ABD587F7B75FCD2E5 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		675EBFEF23E1DEA5A52E3862285320A0 /* Pods-WZPayment_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZPayment_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		6C0CCBC4711CB873CE5D665D1F7ACC77 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		6C747CA1012644045CBAA327F82744B9 /* WZPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZPayment.debug.xcconfig; sourceTree = "<group>"; };
+		6DE0EF90C212117141247C825D1870C5 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		6E013813BD01C9FAC348FE97EC7AF18D /* Pods-WZPayment_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WZPayment_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		71DD8D6E25A8F97F2BD415A6A97A693D /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		75B7D3147467F2CB35ADD4BE7DFE2DA3 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		7AA0C04C8ED68A5E5BFA52125DC87D83 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		7B2F7346ECCC6A55208B1B61CC71E0DE /* WZPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WZPayment.framework; path = WZPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B47F3111AE5A113203BF83B621AC7F5 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		80787B3EDBC6A7AC935DF782E8AB501D /* Pods-WZPayment_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZPayment_Tests-Info.plist"; sourceTree = "<group>"; };
+		85F40017BFDFE94E9C51AFB174971BF0 /* KeychainAccess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.release.xcconfig; sourceTree = "<group>"; };
 		878E4FA25E1D61C7201C86D9C3ECFAF5 /* WZPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WZPayment.release.xcconfig; sourceTree = "<group>"; };
-		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		88F6E9BA60BB8497F1626621F907785E /* Pods-WZPayment_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WZPayment_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		951754E8E5E7042E77DA7244C2F46AF7 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
 		9778D07128C82F89D727731281D83E40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9B7A31520EFCEFB1A035E42CFD722F3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7AAF3324826F2AE1BED0635BA8529A4 /* Pods-WZPayment_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZPayment_Tests.modulemap"; sourceTree = "<group>"; };
 		ABF8400D092F7E530BE340577D044E03 /* Pods-WZPayment_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WZPayment_Example.modulemap"; sourceTree = "<group>"; };
-		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B3B9980F93E6E4206C216AE38C48B79E /* WZPayment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WZPayment.modulemap; sourceTree = "<group>"; };
+		B4E486BFCBF626207531654FF5FB2B88 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
 		B5DFB719BBBB4F4E40372E911B18F4D5 /* WZPayment.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WZPayment.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		C03FEDDC94C508D28730D20674E8D485 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		CAC09D3CBFD9EF6121364022BAF41653 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		CC6BD31B0EEC3C5A8E87166A02B4AC74 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		CC98EA1C5E978A6529C873DD8FF20D00 /* WZPayment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WZPayment-prefix.pch"; sourceTree = "<group>"; };
-		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		CCBB9EAB5E276E9585687EAC8E205F41 /* KeychainAccess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.debug.xcconfig; sourceTree = "<group>"; };
 		D16F13D2C9ADC44FFCCFB0222213D7F3 /* Pods-WZPayment_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZPayment_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D5A872420B4957CA7A49A9EC402EB557 /* Pods_WZPayment_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WZPayment_Tests.framework; path = "Pods-WZPayment_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DC3386780854A3589FB7187CC4A1CDA3 /* Pods-WZPayment_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WZPayment_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF45C913FDC743E916BA1B1648FCEB17 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB234B3BBC55D514EC223B1F9CA924B5 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		EDDD76F5A6497B13BCA3F122D75C0898 /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
 		EF18B684FF3332F56531F788296EF7BD /* Pods-WZPayment_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WZPayment_Tests-dummy.m"; sourceTree = "<group>"; };
+		F766550405E619011F50DD9ACB94A8A6 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		F83A61F50FB39103DA07DA98AED2EBAA /* Pods-WZPayment_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WZPayment_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBEF3F18C7A423EF39B6B908BBAA91E7 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FD05BF45124F828A78BD8D1CD4BE976C /* WZPayment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WZPayment-dummy.m"; sourceTree = "<group>"; };
-		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F516EEA86E9D2A37A0FEF9208E3CFDB /* Frameworks */ = {
+		25A34D912295D6928C2DAAE08E2D0472 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A44F9ECC9F9635FBA7760BEEE74A43D8 /* Foundation.framework in Frameworks */,
+				995DC40F4FFF0671CD744C86B4E23147 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4875CA17C9367B6327D903AB9C9B25C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA840D4EC9E23622F335C1F44FFAE912 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,11 +179,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		701C27A5796ED6889CBC3A55D59655EA /* Frameworks */ = {
+		7668D0A8468B5894E555ECAA4EC50BC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34955179CBC57367D08ACFDD1EAD2EF5 /* Foundation.framework in Frameworks */,
+				9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,10 +201,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EFF35B3CC7B88C7CDD7E22B491B34FF /* Products */ = {
+		0FB526FF5FD48383261A77A0C23F7E0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C52A5D02ED8725A9C4097146FC3CC /* FBSnapshotTestCase */,
+				CD932CD421DAF9D34ABF9AD842DD5405 /* KeychainAccess */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		134E9057B53932043CD32FB7A54E87AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
 				281EE5C032D2DDC7B9DA3DB4A16EA6FE /* Pods_WZPayment_Example.framework */,
 				D5A872420B4957CA7A49A9EC402EB557 /* Pods_WZPayment_Tests.framework */,
 				7B2F7346ECCC6A55208B1B61CC71E0DE /* WZPayment.framework */,
@@ -187,23 +232,23 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
+		4E87A6AC8F9391B1742CC20192909106 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */,
-				277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */,
-				88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */,
-				6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */,
-				AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */,
-				7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */,
-				99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */,
-				0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */,
-				656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */,
-				235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */,
-				96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */,
-				4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */,
-				284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */,
-				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
+				FBEF3F18C7A423EF39B6B908BBAA91E7 /* FBSnapshotTestCase.h */,
+				6DE0EF90C212117141247C825D1870C5 /* FBSnapshotTestCase.m */,
+				5ECAE37AB7636A61299B53CD4BEB601F /* FBSnapshotTestCasePlatform.h */,
+				44F6732C3359AF97071615C3FF1E950B /* FBSnapshotTestCasePlatform.m */,
+				6C0CCBC4711CB873CE5D665D1F7ACC77 /* FBSnapshotTestController.h */,
+				F766550405E619011F50DD9ACB94A8A6 /* FBSnapshotTestController.m */,
+				3FB1B3A3FC5CE94C06CB5C722946EB91 /* UIApplication+StrictKeyWindow.h */,
+				71DD8D6E25A8F97F2BD415A6A97A693D /* UIApplication+StrictKeyWindow.m */,
+				27FAAB8D5E19044E309A7D30599E1F99 /* UIImage+Compare.h */,
+				082B486F96700E32DD7A7D614FD02DE5 /* UIImage+Compare.m */,
+				75B7D3147467F2CB35ADD4BE7DFE2DA3 /* UIImage+Diff.h */,
+				7B47F3111AE5A113203BF83B621AC7F5 /* UIImage+Diff.m */,
+				CC6BD31B0EEC3C5A8E87166A02B4AC74 /* UIImage+Snapshot.h */,
+				6159A32BAC674D8ABD587F7B75FCD2E5 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -236,14 +281,6 @@
 			path = "Target Support Files/Pods-WZPayment_Example";
 			sourceTree = "<group>";
 		};
-		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
 		91E63DA6BE7FAEFAF043FBE00D250500 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,19 +290,27 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
+		ACF3F306C767235D4A92E38A9FA0F47B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */,
-				1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */,
-				B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */,
-				D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */,
-				8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */,
-				9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */,
-				4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */,
+				7AA0C04C8ED68A5E5BFA52125DC87D83 /* FBSnapshotTestCase.modulemap */,
+				118F7E9A4CC79F1B41B3AB93AEF3943B /* FBSnapshotTestCase-dummy.m */,
+				063976C36920EEBCE6167D8FA5DFDEA2 /* FBSnapshotTestCase-Info.plist */,
+				39567C3398B2542D8C70575B15DBA7E9 /* FBSnapshotTestCase-prefix.pch */,
+				0FD531FDECEDB9589C7DCD56236C7E05 /* FBSnapshotTestCase-umbrella.h */,
+				5DE505D5CE6C23A98267307662277AF1 /* FBSnapshotTestCase.debug.xcconfig */,
+				CAC09D3CBFD9EF6121364022BAF41653 /* FBSnapshotTestCase.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		B3915A05E3DEA5D599F7153986ED9055 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				C03FEDDC94C508D28730D20674E8D485 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -276,15 +321,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */ = {
+		CA3C52A5D02ED8725A9C4097146FC3CC /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				4BA2479549DD918290454B1CDCD0B92B /* Core */,
-				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
-				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
+				4E87A6AC8F9391B1742CC20192909106 /* Core */,
+				ACF3F306C767235D4A92E38A9FA0F47B /* Support Files */,
+				B3915A05E3DEA5D599F7153986ED9055 /* SwiftSupport */,
 			);
 			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		CD932CD421DAF9D34ABF9AD842DD5405 /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				EB234B3BBC55D514EC223B1F9CA924B5 /* Keychain.swift */,
+				E884A16E7FEB8B08EF7A153B9EBB593F /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -293,8 +348,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				EE00DC7A91A6E82F9383F4F633162C4B /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
-				E81A37DBDE41E671312C56736544E2FA /* Pods */,
-				0EFF35B3CC7B88C7CDD7E22B491B34FF /* Products */,
+				0FB526FF5FD48383261A77A0C23F7E0A /* Pods */,
+				134E9057B53932043CD32FB7A54E87AC /* Products */,
 				91E63DA6BE7FAEFAF043FBE00D250500 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -342,12 +397,19 @@
 			path = "Example/Pods/Target Support Files/WZPayment";
 			sourceTree = "<group>";
 		};
-		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+		E884A16E7FEB8B08EF7A153B9EBB593F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD2D60DE56CBB8C87BA07E0C1CCD0592 /* FBSnapshotTestCase */,
+				EDDD76F5A6497B13BCA3F122D75C0898 /* KeychainAccess.modulemap */,
+				33F1F8B577F751595917B0E2E461C790 /* KeychainAccess-dummy.m */,
+				B4E486BFCBF626207531654FF5FB2B88 /* KeychainAccess-Info.plist */,
+				951754E8E5E7042E77DA7244C2F46AF7 /* KeychainAccess-prefix.pch */,
+				DF45C913FDC743E916BA1B1648FCEB17 /* KeychainAccess-umbrella.h */,
+				CCBB9EAB5E276E9585687EAC8E205F41 /* KeychainAccess.debug.xcconfig */,
+				85F40017BFDFE94E9C51AFB174971BF0 /* KeychainAccess.release.xcconfig */,
 			);
-			name = Pods;
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
 			sourceTree = "<group>";
 		};
 		EE00DC7A91A6E82F9383F4F633162C4B /* Development Pods */ = {
@@ -361,14 +423,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		355EB395A0CEFB77837D67E302E84ACF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D435408F33873D2CC50E490716DF02EC /* Pods-WZPayment_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,6 +438,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		39CC3E71CEA7805FCA03E3A1CC052EEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		61E6989FB05BFF96D08E4D1C0EF68A54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -392,11 +454,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2E30DCE591EA70C94E6ED4422148C5C /* Headers */ = {
+		658215B07D36C51ED578A1DB80D722C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB5351A7B65AFB82ABE17184EDAB0FD /* WZPayment-umbrella.h in Headers */,
+				31913B06338D9AE5D56AAAF58AD4C8D6 /* WZPayment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8CD1FB586F969F375448866B59A88A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7E51EB0AFDC490E0BDFA92D3A20978 /* Pods-WZPayment_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +493,24 @@
 			productReference = D5A872420B4957CA7A49A9EC402EB557 /* Pods_WZPayment_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEE926243448802ACA6F07A75D9C025 /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				39CC3E71CEA7805FCA03E3A1CC052EEA /* Headers */,
+				C4DE4004EE1661FE4BC4E6C40415F599 /* Sources */,
+				7668D0A8468B5894E555ECAA4EC50BC1 /* Frameworks */,
+				AE292B4411627ABE21EB769134C1E8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
@@ -443,16 +531,17 @@
 		};
 		B1541EFC15EB66C880620FB6F103F070 /* WZPayment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC4C729C88EA7B74F225BF22AA456158 /* Build configuration list for PBXNativeTarget "WZPayment" */;
+			buildConfigurationList = 1D6DD587101A47FE1D78F97BE1DE6113 /* Build configuration list for PBXNativeTarget "WZPayment" */;
 			buildPhases = (
-				F2E30DCE591EA70C94E6ED4422148C5C /* Headers */,
-				0B60E7494C1B1B23601E4A7946DF47D1 /* Sources */,
-				0F516EEA86E9D2A37A0FEF9208E3CFDB /* Frameworks */,
-				CD5A2E32467D1AFFDEF41A0391C36840 /* Resources */,
+				658215B07D36C51ED578A1DB80D722C3 /* Headers */,
+				B9584FB3E040D0547DA2FD052DCCEA01 /* Sources */,
+				4875CA17C9367B6327D903AB9C9B25C4 /* Frameworks */,
+				FFE174DDA387319903DCB3AE0F15BCD3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				105CB912FBDF2A0F2161226C9B235CA3 /* PBXTargetDependency */,
 			);
 			name = WZPayment;
 			productName = WZPayment;
@@ -461,17 +550,18 @@
 		};
 		BFFAC2FFDA74005E6FFB5663FB5E788C /* Pods-WZPayment_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C5E2C0B8F74A4B93A7A46B1CD1E39D9 /* Build configuration list for PBXNativeTarget "Pods-WZPayment_Example" */;
+			buildConfigurationList = 036833E675447C1CAB255E7F285EFB58 /* Build configuration list for PBXNativeTarget "Pods-WZPayment_Example" */;
 			buildPhases = (
-				355EB395A0CEFB77837D67E302E84ACF /* Headers */,
-				C2EBB97DF68155C7E21AA759BFEF5BA9 /* Sources */,
-				701C27A5796ED6889CBC3A55D59655EA /* Frameworks */,
-				5F6F4CAA438C6057A2AB845A86D67096 /* Resources */,
+				8F8CD1FB586F969F375448866B59A88A /* Headers */,
+				F4D037723ADB0BA03CA61F3184B44590 /* Sources */,
+				25A34D912295D6928C2DAAE08E2D0472 /* Frameworks */,
+				5951A7BAA9EC658F6E8B8CCB30A3F171 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ADA68FE0919E6A0D034F2903A2D3DC28 /* PBXTargetDependency */,
+				0EFD09306F92CFCA9F6D914797629A84 /* PBXTargetDependency */,
+				7FC7D11B777D4969BB496A8C25EAB2F5 /* PBXTargetDependency */,
 			);
 			name = "Pods-WZPayment_Example";
 			productName = "Pods-WZPayment_Example";
@@ -496,11 +586,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0EFF35B3CC7B88C7CDD7E22B491B34FF /* Products */;
+			productRefGroup = 134E9057B53932043CD32FB7A54E87AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
 				BFFAC2FFDA74005E6FFB5663FB5E788C /* Pods-WZPayment_Example */,
 				133EA4DE179C1AD55F9DAE723D6572E4 /* Pods-WZPayment_Tests */,
 				B1541EFC15EB66C880620FB6F103F070 /* WZPayment */,
@@ -516,6 +607,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5951A7BAA9EC658F6E8B8CCB30A3F171 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,14 +621,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5F6F4CAA438C6057A2AB845A86D67096 /* Resources */ = {
+		AE292B4411627ABE21EB769134C1E8BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD5A2E32467D1AFFDEF41A0391C36840 /* Resources */ = {
+		FFE174DDA387319903DCB3AE0F15BCD3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,15 +638,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0B60E7494C1B1B23601E4A7946DF47D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4A8F237A66D2ABB977BD05A3AA90B59 /* WZPayment-dummy.m in Sources */,
-				F95D60BB7D99DBC21ED65FD70B8EA4EA /* WZPaymentStore.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -565,11 +654,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2EBB97DF68155C7E21AA759BFEF5BA9 /* Sources */ = {
+		B9584FB3E040D0547DA2FD052DCCEA01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E2872B805148F1BF1BE868518859845 /* Pods-WZPayment_Example-dummy.m in Sources */,
+				19E4288253C87CB5BB8B950FDC29402E /* WZPayment-dummy.m in Sources */,
+				3685D69742100EDEB9044969A8F936E3 /* WZPaymentStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DE4004EE1661FE4BC4E6C40415F599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */,
+				4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -581,20 +680,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F4D037723ADB0BA03CA61F3184B44590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55BDBE5E58A0400987C584103643D8C8 /* Pods-WZPayment_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0EFD09306F92CFCA9F6D914797629A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 8E5EB2B581BF08CAD7E468E6312D75A3 /* PBXContainerItemProxy */;
+		};
+		105CB912FBDF2A0F2161226C9B235CA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = F6863D53DFE1B1D16B19D0C6D43C47A3 /* PBXContainerItemProxy */;
+		};
 		271464DF8DD41D964ECC66D82CB20553 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
 			targetProxy = 1899ABDDB3CF0367A9EEF73594BA61D6 /* PBXContainerItemProxy */;
 		};
-		ADA68FE0919E6A0D034F2903A2D3DC28 /* PBXTargetDependency */ = {
+		7FC7D11B777D4969BB496A8C25EAB2F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WZPayment;
 			target = B1541EFC15EB66C880620FB6F103F070 /* WZPayment */;
-			targetProxy = 9D883589EFA55DB8FB7B62E2C63C6BEA /* PBXContainerItemProxy */;
+			targetProxy = 48418CA12795542E381AD729849C470A /* PBXContainerItemProxy */;
 		};
 		F9BE21859A9ED53E6C90BC47E73BE496 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -605,9 +724,105 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		02C585959AD1A93F9AF5E07F08D1537E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F40017BFDFE94E9C51AFB174971BF0 /* KeychainAccess.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28BC7A2AE78C8BF67C7506E7F8E43F35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCBB9EAB5E276E9585687EAC8E205F41 /* KeychainAccess.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DB7B4F447A9019234BADB399207A9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8E7DFFBDA40AB1D9F797377973A24C /* Pods-WZPayment_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		441C7939108738A0C7CD37CBADE0B85E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = 5DE505D5CE6C23A98267307662277AF1 /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -636,10 +851,11 @@
 			};
 			name = Debug;
 		};
-		53790D37FFADB48967B125D49D74927A /* Release */ = {
+		5D5EABC9BC7682A0A73D261D9FCF524C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878E4FA25E1D61C7201C86D9C3ECFAF5 /* WZPayment.release.xcconfig */;
+			baseConfigurationReference = 42911A93F1C3433F627B450572B9F96C /* Pods-WZPayment_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -649,18 +865,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WZPayment/WZPayment-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WZPayment/WZPayment-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WZPayment/WZPayment.modulemap";
-				PRODUCT_MODULE_NAME = WZPayment;
-				PRODUCT_NAME = WZPayment;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -735,40 +952,7 @@
 			};
 			name = Debug;
 		};
-		88C42CB7F22D1D035EFEA5CA8E2BA950 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D8E7DFFBDA40AB1D9F797377973A24C /* Pods-WZPayment_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		96B3597252B6BBEDFA45664CA5CE6D7C /* Debug */ = {
+		91BCE4187B1233AD2C9C553E7C58BE83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6C747CA1012644045CBAA327F82744B9 /* WZPayment.debug.xcconfig */;
 			buildSettings = {
@@ -786,13 +970,14 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/WZPayment/WZPayment.modulemap";
 				PRODUCT_MODULE_NAME = WZPayment;
 				PRODUCT_NAME = WZPayment;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -923,43 +1108,9 @@
 			};
 			name = Debug;
 		};
-		BC546E977DE260A8A46D20708D39667A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42911A93F1C3433F627B450572B9F96C /* Pods-WZPayment_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WZPayment_Example/Pods-WZPayment_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BE874B114A0991701B09229EAAA4CA84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = CAC09D3CBFD9EF6121364022BAF41653 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -989,9 +1140,60 @@
 			};
 			name = Release;
 		};
+		FE1DE3C54B973C516B759876B60C2F1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878E4FA25E1D61C7201C86D9C3ECFAF5 /* WZPayment.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WZPayment/WZPayment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WZPayment/WZPayment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/WZPayment/WZPayment.modulemap";
+				PRODUCT_MODULE_NAME = WZPayment;
+				PRODUCT_NAME = WZPayment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		036833E675447C1CAB255E7F285EFB58 /* Build configuration list for PBXNativeTarget "Pods-WZPayment_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB7B4F447A9019234BADB399207A9C9 /* Debug */,
+				5D5EABC9BC7682A0A73D261D9FCF524C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6DD587101A47FE1D78F97BE1DE6113 /* Build configuration list for PBXNativeTarget "WZPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91BCE4187B1233AD2C9C553E7C58BE83 /* Debug */,
+				FE1DE3C54B973C516B759876B60C2F1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1001,11 +1203,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C5E2C0B8F74A4B93A7A46B1CD1E39D9 /* Build configuration list for PBXNativeTarget "Pods-WZPayment_Example" */ = {
+		4BEE926243448802ACA6F07A75D9C025 /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88C42CB7F22D1D035EFEA5CA8E2BA950 /* Debug */,
-				BC546E977DE260A8A46D20708D39667A /* Release */,
+				28BC7A2AE78C8BF67C7506E7F8E43F35 /* Debug */,
+				02C585959AD1A93F9AF5E07F08D1537E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1015,15 +1217,6 @@
 			buildConfigurations = (
 				441C7939108738A0C7CD37CBADE0B85E /* Debug */,
 				BE874B114A0991701B09229EAAA4CA84 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EC4C729C88EA7B74F225BF22AA456158 /* Build configuration list for PBXNativeTarget "WZPayment" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96B3597252B6BBEDFA45664CA5CE6D7C /* Debug */,
-				53790D37FFADB48967B125D49D74927A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

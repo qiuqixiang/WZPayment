@@ -258,7 +258,7 @@ protocol WZPaymentStoreDelegate: class {
 
 
 // MARK - 获取苹果产品id请求
-final class WZSKProduct: NSObject, SKProductsRequestDelegate {
+public class WZSKProduct: NSObject, SKProductsRequestDelegate {
     
     typealias ProductSucessBlock = (_ products: SKProduct) -> Void
     typealias productFailBlock = (_ error: Error) -> Void
@@ -297,7 +297,7 @@ final class WZSKProduct: NSObject, SKProductsRequestDelegate {
     }
     
     /// SKProductsRequestDelegate
-    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
+    public func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
         if response.products.count == 0 {
             let err = NSError(domain: "未获取到该产品", code: 100020, userInfo: nil)
             productFailHandler?(err)
@@ -307,7 +307,7 @@ final class WZSKProduct: NSObject, SKProductsRequestDelegate {
         productSucessHandler?(response.products.first!)
     }
     
-    func request(_ request: SKRequest, didFailWithError error: Error) {
+    public func request(_ request: SKRequest, didFailWithError error: Error) {
         productFailHandler?(error)
     }
     

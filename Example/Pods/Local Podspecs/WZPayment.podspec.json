@@ -1,22 +1,31 @@
 {
   "name": "WZPayment",
-  "version": "0.1.0",
-  "summary": "A short description of WZPayment.",
+  "version": "0.1.2",
+  "summary": "内购组件：支持自动补单，漏单可继续购买",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ppqx/WZPayment",
+  "homepage": "https://github.com/qiuqixiang/WZPayment.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ppqx": "739140860@qq.com"
+    "qiuqixiang": "739140860@qq.com"
   },
   "source": {
-    "git": "https://github.com/ppqx/WZPayment.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/qiuqixiang/WZPayment.git",
+    "tag": "0.1.2"
   },
+  "requires_arc": true,
+  "static_framework": true,
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WZPayment/Classes/**/*"
+  "source_files": "WZPayment/Classes/*.swift",
+  "dependencies": {
+    "KeychainAccess": [
+      "~> 3.2.0"
+    ]
+  },
+  "swift_version": "5.0"
 }
