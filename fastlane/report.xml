@@ -5,14 +5,57 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.010818">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.005077">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: pod_lib_lint" time="68.28001">
+      <testcase classname="fastlane.lanes" name="01: pod_lib_lint" time="72.33513">
         
-          <failure message="/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:253:in `block in execute_action'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:38:in `block (2 levels) in parsing_binding'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/npp/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/npp/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/npp/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/npp/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/commands_generator.rb:349:in `run'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/fastlane/lib/fastlane/cli_tools_distributor.rb:119:in `take_off'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/gems/fastlane-2.143.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/bin/fastlane:23:in `load'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `eval'&#10;/Users/npp/.rvm/gems/ruby-2.6.3/bin/ruby_executable_hooks:24:in `&lt;main&gt;'&#10;&#10;Exit status of command 'bundle exec pod lib lint WZPayment.podspec --allow-warnings --sources='https://github.com/CocoaPods/Specs.git,https://github.com/CocoaPods/Specs.git' --skip-import-validation' was 1 instead of 0.&#10;&#10; -&gt; WZPayment -&gt; WZPayment (0.1.0)&#10;    - WARN  | url: There was a problem validating the URL https://github.com/qiuqixiang/WZPayment.&#10;    - WARN  | [iOS] swift: The validator used Swift `4.0` by default because no Swift version was specified. To specify a Swift version during validation, add the `swift_versions` attribute in your podspec. Note that usage of a `.swift-version` file is now deprecated.&#10;    - ERROR | [iOS] xcodebuild: Returned an unsuccessful exit code. You can use `--verbose` for more information.&#10;    - NOTE  | xcodebuild:  note: Using new build system&#10;    - NOTE  | xcodebuild:  note: Building targets in parallel&#10;    - NOTE  | [iOS] xcodebuild:  note: Planning build&#10;    - NOTE  | [iOS] xcodebuild:  note: Constructing build description&#10;    - ERROR | [iOS] xcodebuild:  /Users/npp/Desktop/WZiOSKit/WZPayment/WZPayment/Classes/WZPaymentStore.swift:19:8: error: no such module 'KeychainAccess'&#10;&#10;[!] WZPayment did not pass validation, due to 2 errors.&#10;You can use the `--no-clean` option to inspect any issue.&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: version_bump_podspec" time="0.002303">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: git_add" time="0.014991">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: git_commit" time="0.02924">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: push_to_git_remote" time="8.096555">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: version_get_podspec" time="0.002522">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: git_tag_exists" time="0.012436">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: add_git_tag" time="0.017481">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: push_git_tags" time="9.942864">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: pod_push" time="184.780232">
         
       </testcase>
     

@@ -38,7 +38,7 @@ public class WZPaymentStore: NSObject {
     }
     
     /// 获取产品列表
-    private lazy var productRequest: WZSKProduct = {
+    public lazy var productRequest: WZSKProduct = {
         return $0
     }(WZSKProduct())
     
@@ -230,9 +230,10 @@ extension WZPaymentStore: SKPaymentTransactionObserver  {
                     savePayInfoToKeychain(productId: model.productId, orderId: model.orderId, transid: model.transId)
                     callBackPaySucess(transId: model.transId, orderId: model.orderId, productId: model.productId)
                 }
-//                else{
-//                    callBackPaySucess(transId: tran.transactionIdentifier ?? "", orderId: "", productId: tran.payment.productIdentifier)
-//                }
+                else{
+                    /// 订阅要上报到服务器更新
+                    callBackPaySucess(transId: tran.transactionIdentifier ?? "", orderId: "", productId: tran.payment.productIdentifier)
+                }
                 SKPaymentQueue.default().finishTransaction(tran)
             case .deferred:
                 SKPaymentQueue.default().finishTransaction(tran)
@@ -247,6 +248,11 @@ extension WZPaymentStore: SKPaymentTransactionObserver  {
 protocol WZPaymentStoreDelegate: class {
     
     /// 补单回调
+    /// - Parameters:
+    ///   - strore: 管理
+    ///   - transId: 苹果订单
+    ///   - orderId: 订单
+    ///   - productId: 产品id
     func paymentStore(strore: WZPaymentStore, restore transId: String, orderId: String, productId: String)
 }
 
